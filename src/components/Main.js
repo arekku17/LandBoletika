@@ -144,7 +144,7 @@ export default function Main() {
 
 
         <div className="container flex flex-col items-center justify-center mx-auto rounded-lg md:w-1/2">
-          <Carousel width="100%">
+          <Carousel width="100%" swipeable={false}>
             <div>
               <img src="/images/carousel/cuadro.png" />
             </div>
