@@ -11,9 +11,7 @@ function Home() {
         <link rel="icon" href="/images/boletika-logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
-      <Header />
       <Main />
-      <Footer />
     </div>
   );
 }

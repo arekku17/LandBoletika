@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="pb-4">
@@ -14,12 +16,12 @@ export default function Footer() {
             </li>
           </ul>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <a
+            <Link
               href="/"
               className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
             >
               © 2023 Boletika.
-            </a>
+            </Link>
           </ul>
         </div>
       </div>

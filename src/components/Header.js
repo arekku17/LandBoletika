@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -41,38 +42,22 @@ export default function Header() {
         </div>
         <div
           className={
-            "md:flex flex-grow items-center" +
+            "md:flex flex-grow items-center transition-all " +
             (navbarOpen ? " flex" : " hidden")
           }
         >
           <nav className="flex-col flex-grow ">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <a
+                <Link
                   href="/planes"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Planes
-                </a>
+                </Link>
               </li>
-              <li>
-                <a
-                  className="inline-flex button items-center px-4 py-2 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent rounded-lg text-md md:mt-0 md:ml-4 bg-blue-800"
-                  href="/"
-                >
-                  <span className="justify-center">Ir a la APP</span>
-                  <svg
-                    className="w-3 h-3 fill-current text-gray-400 flex ml-2 -mr-1"
-                    viewBox="0 0 12 12"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                      fillRule="nonzero"
-                    />
-                  </svg>
-                </a>
-              </li>
+
+             
             </ul>
           </nav>
         </div>

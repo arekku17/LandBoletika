@@ -7,10 +7,9 @@ export default function Home() {
     return (
         <div className="text-black">
             <Head>
-                <title>Boletika</title>
-                <link rel="icon" href="/images/boletika-logo.png" />
+                <title>Boletika | Planes</title>
+                <link rel="icon" ref="/images/boletika-logo.png" />
             </Head>
-            <Header />
             <div className="container my-24 px-6 mx-auto">
                 <section className="mb-32 text-gray-800">
                     <h2 className="text-3xl font-bold text-center mb-12 azul">Planes mensuales</h2>
@@ -38,7 +37,7 @@ export default function Home() {
                                                 <path fill="currentColor"
                                                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                                                 </path>
-                                            </svg> 50 boletos sin coste ($3 por boleto después de 50 boletos)
+                                            </svg> 50 boletos sin coste ($5 por boleto después de 50 boletos)
                                         </li>
                                         <li className="mb-4 flex items-center">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -61,7 +60,7 @@ export default function Home() {
                                         <strong>Intermedio</strong>
                                     </p>
                                     <h3 className="text-2xl mb-6">
-                                        <strong>$ 299</strong>
+                                        <strong>$ 500</strong>
                                         <small className="text-gray-500 text-sm">/mes</small>
                                     </h3>
                                 </div>
@@ -77,7 +76,7 @@ export default function Home() {
                                                 <path fill="currentColor"
                                                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                                                 </path>
-                                            </svg>100 boletos sin costo ($3 por boleto después de 100 boletos)
+                                            </svg>100 boletos sin costo ($5 por boleto después de 100 boletos)
                                         </li>
                                         <li className="mb-4 flex items-center">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -127,7 +126,7 @@ export default function Home() {
                                         <strong>Premium</strong>
                                     </p>
                                     <h3 className="text-2xl mb-6">
-                                        <strong>$ 499</strong>
+                                        <strong>$ 800</strong>
                                         <small className="text-gray-500 text-sm">/mes</small>
                                     </h3>
                                 </div>
@@ -143,7 +142,7 @@ export default function Home() {
                                                 <path fill="currentColor"
                                                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                                                 </path>
-                                            </svg>150 boletos sin costo ($3 por boleto después de 150 boletos)
+                                            </svg>150 boletos sin costo ($5 por boleto después de 150 boletos)
                                         </li>
                                         <li className="mb-4 flex items-center">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -179,7 +178,7 @@ export default function Home() {
                                                 <path fill="currentColor"
                                                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                                                 </path>
-                                            </svg>Estadística en tiempo real
+                                            </svg>Estadística en tiempo real y detallada
                                         </li>
                                         <li className="mb-4 flex items-center">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -198,7 +197,6 @@ export default function Home() {
                 </section>
 
             </div>
-            <Footer />
         </div>
     );
 }

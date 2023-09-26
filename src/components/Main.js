@@ -120,15 +120,22 @@ export default function Main() {
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
             <h1 className="mb-8 text-5xl Avenir font-semibold azul">
-              Probado en el evento de
+              Casos de uso
             </h1>
           </div>
-          <div className="grid grid-cols-1 gap-16 text-center lg:grid-cols-1">
+          <div className="grid gap-16 text-center md:grid-cols-2">
             <a href="https://www.tiktec.fun" className="flex items-center justify-center">
               <img
                 src="/images/Tiktec-Logo.png"
+                alt="TiktecLogo"
+                className="block object-contain greyC h-36 md:h-2/4 "
+              ></img>
+            </a>
+            <a href="" className="flex items-center justify-center">
+              <img
+                src="/images/logo_simposio.png"
                 alt="Google Logo"
-                className="block object-contain greyC md:h-2/4 "
+                className="block object-contain greyC h-40 md:h-2/4 "
               ></img>
             </a>
           </div>
@@ -136,10 +143,10 @@ export default function Main() {
       </section>
       <div className="grr max-w-7xl pt-20 mx-auto text-center p-10">
         <h1 className="mb-8 text-5xl Avenir font-semibold azul">
-          Totalmente digital
+          Totalmente en la nube
         </h1>
         <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
-          Todos los boletos son digitales y se pueden presentar en tu celular en la entrada del evento
+          Todos los boletos son digitales y se pueden presentar en tu celular en la entrada del evento.
         </h1>
 
 
@@ -156,6 +163,15 @@ export default function Main() {
             </div>
           </Carousel>
         </div>
+      </div>
+
+      <div className="flex flex-wrap max-w-7xl pt-20 mx-auto text-center p-10 items-center justify-center">
+        <h1 className="mb-8 text-5xl Avenir font-semibold azul">
+          Mira nuestro video promocional
+        </h1>
+
+        <iframe className="w-full h-80" src="https://www.youtube.com/embed/Dg6YyPM4nkM?si=79qbCExz9tAcn391" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       
       </div>
     </section>
   );

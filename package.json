@@ -23,6 +23,7 @@
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
-    "@flydotio/dockerfile": "^0.2.7"
+    "@flydotio/dockerfile": "^0.2.7",
+    "@tailwindcss/aspect-ratio": "^0.4.2"
   }
 }
