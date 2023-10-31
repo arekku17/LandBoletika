@@ -56,6 +56,14 @@ export default function Header() {
                   Planes
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/contacto"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Contacto
+                </Link>
+              </li>
 
              
             </ul>

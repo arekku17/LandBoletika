@@ -5,7 +5,7 @@ import Header from "@/components/Header";
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className="grow">{children}</main>
       <Footer />
     </>
   )
